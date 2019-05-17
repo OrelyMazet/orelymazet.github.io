@@ -1,0 +1,28 @@
+// les mixins
+@mixin flexOrient($direction){
+    display:flex;
+    flex-direction:$direction;
+}
+@mixin flexCenter(){
+    justify-content: center;
+    align-items:center;
+    padding:3%;
+}
+
+@mixin flexRight(){
+    justify-content: right;
+    align-items:right;
+    padding:3%;
+}
+
+@mixin flexLeft(){
+    justify-content: left;
+    align-items:left;
+    padding:3%;
+}
+
+@mixin media-max($_max-width){
+     @media screen and (max-width:$_max-width){
+        &{ @content;}
+    }
+}

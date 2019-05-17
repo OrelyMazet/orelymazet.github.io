@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>my_snapchat Choose an image</title>
+    <link rel="stylesheet" href="my_upload.css">
+    <script type="text/javascript" src="my_upload.js"></script>
+</head>
+
+<body>
+    <!--<form>-->
+    <h1> Welcome to My Snapchat </h1>
+    <p>A vous de jouer, maintenant!</p>
+
+    <label for="avatar">Vos photos</label>
+    <input type="file" id="mesphotos" height=200 width=100 name="vidéo" accept="image/*" capture>
+    <img id="myImg" height="200" alt="Visualisation de l'image">
+
+    <!--<form>-->
+    <!--<input type="text" size="10" maxlength="10" placeholder='1d 11h 11m' class="duration" />
+        <label for="next field">Délai butoir </label>
+        <input type="text" size="10" maxlength="10" placeholder="wo'eva" />-->
+
+    <!--</form>-->
+    <!--<input type='text' id='txtEmail' />-->
+    <!--<input type="email" id="email" maxlength="40" name="email" required>-->
+    <!--<button type="button" name="Choisir" id="bouton_envoyer">-->
+
+    <h2> Sélectionner vos contacts</h2>
+    <button id="Contact">Accédez aux contacts</button>
+    <div id="theListEmail">
+        <h3>Liste des Contacts</h3>
+        <select id="listemail">
+    
+        </select>
+    </div>
+    <div class="items">        
+        <h2>Durée de votre snap</h2>
+        <p>Veuillez définir le délai de votre snap, s'il vous plaît.</p>
+        <label for="duration"></label>
+        <!--<input type="datetime-local">
+        <label for="start">Start date:</label>-->
+       <!-- <input type="date" id="start" name="trip-start"
+        value=""
+        min="2019-03-29" max="2019-12-31">-->
+
+        <!--<ul id="listeduree">
+            <li><time datetime="P5M">5 minutes</time></li><button id="time"> Snap time</button>
+            <li><time datetime="P10M">10 minutes</time></li><button id="time"> Snap time</button>
+            <li><time datetime="P15M">15 minutes</time></li><button id="time"> Snap time</button>
+        </ul>-->
+        <input type="number" id="Duree" name="Duree" min="5">
+    </div>
+       
+    <button type="button" name="Envoyer" id="bouton_envoyer">ENVOYER</button>
+</body>

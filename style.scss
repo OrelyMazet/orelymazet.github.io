@@ -1,0 +1,77 @@
+@import'./import/mixin.scss';
+@import'./import/variables.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    background-color: $backColor;
+    color:$textColor;
+    max-width: 1280px;
+    @include flexOrient(column);
+}
+
+.wrappertop{
+    width:$width;
+    @include flexOrient(row);
+    .wrappertopleft{
+    width:$widthbis;
+    @include flexOrient(column);
+    @include flexLeft();
+    }
+    .wrappertopright{
+    width:$widthbis;
+    @include flexOrient(column);
+    @include flexRight();
+    }
+    .introtext{
+    width:$width;
+    h1{font-size: $polSize;}
+    h2{font-size:$poliSize;}
+    }
+    .menuintro{
+    width:$width;
+    @include flexOrient(row);
+    i{color:$textColor;font-size:$poliSize;}
+}
+}
+
+.wrappermiddle{
+    width:$width;
+    @include flexOrient(row);
+    padding:3%;
+    background-color: $backColorbge;
+    .midleft{
+    @include flexOrient(column);
+    width:$widthbis;
+    background-color:$backColor;
+    .wrappermiddleleft{
+    width:$width;
+    @include flexOrient(row);
+    #astronaut{width:90%;}
+    .realisation{width:auto;border-color: $backColorbge; border-radius:2%;border-style:dotted;margin:2%;padding:1%;@include flexCenter();a{color:$textColor;font-size:$poliMini;}}
+    }
+    .wrappermiddleright{
+    width:$width;
+    @include flexOrient(row);
+    .realisation{
+        width:auto;border-color: $backColorbge; border-radius:2%;border-style:dotted;margin:2%;padding:1%;@include flexCenter();a{color:$textColor;font-size:$poliMini;}}
+    }
+    #batman{width:80%;}
+    .brand-logo{width:$widthfi;}
+    }
+    .midright{background-color: $backColor;
+    width:$widthbis;@include flexOrient(column);padding:3%;@include flexCenter();
+    i{font-size:$isize;padding:2%;}
+    .webdesign{width:$width;@include flexOrient(row);@include flexCenter();}
+    .programmation{width:$width;@include flexOrient(row);@include flexCenter();}
+    }
+}
+
+
+
+
+

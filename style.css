@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  background-color: #d74d61;
+  color: #eef0f1;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrappertop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.wrappertop .wrappertopleft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding: 3%;
+}
+.wrappertop .wrappertopright {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  padding: 3%;
+}
+.wrappertop .introtext {
+  width: 100%;
+}
+.wrappertop .introtext h1 {
+  font-size: 5vw;
+}
+.wrappertop .introtext h2 {
+  font-size: 3vw;
+}
+.wrappertop .menuintro {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.wrappertop .menuintro i {
+  color: #eef0f1;
+  font-size: 3vw;
+}
+
+.wrappermiddle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+  background-color: #eef0f1;
+}
+.wrappermiddle .midleft {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #d74d61;
+}
+.wrappermiddle .midleft .wrappermiddleleft {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.wrappermiddle .midleft .wrappermiddleleft #astronaut {
+  width: 90%;
+}
+.wrappermiddle .midleft .wrappermiddleleft .realisation {
+  width: auto;
+  border-color: #eef0f1;
+  border-radius: 2%;
+  border-style: dotted;
+  margin: 2%;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+.wrappermiddle .midleft .wrappermiddleleft .realisation a {
+  color: #eef0f1;
+  font-size: 1.8vw;
+}
+.wrappermiddle .midleft .wrappermiddleright {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.wrappermiddle .midleft .wrappermiddleright .realisation {
+  width: auto;
+  border-color: #eef0f1;
+  border-radius: 2%;
+  border-style: dotted;
+  margin: 2%;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+.wrappermiddle .midleft .wrappermiddleright .realisation a {
+  color: #eef0f1;
+  font-size: 1.8vw;
+}
+.wrappermiddle .midleft #batman {
+  width: 80%;
+}
+.wrappermiddle .midleft .brand-logo {
+  width: 15%;
+}
+.wrappermiddle .midright {
+  background-color: #d74d61;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+.wrappermiddle .midright i {
+  font-size: 10vw;
+  padding: 2%;
+}
+.wrappermiddle .midright .webdesign {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+.wrappermiddle .midright .programmation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+/*# sourceMappingURL=style.css.map */
