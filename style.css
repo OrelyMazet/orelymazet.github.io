@@ -12,6 +12,10 @@ body {
   flex-direction: column;
 }
 
+nav {
+  background-color: inherit;
+}
+
 .wrappertop {
   width: 100%;
   display: flex;
@@ -21,8 +25,8 @@ body {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   padding: 3%;
 }
 .wrappertop .wrappertopright {
@@ -32,6 +36,11 @@ body {
   justify-content: right;
   align-items: right;
   padding: 3%;
+}
+.wrappertop .wrappertopright #van {
+  border-color: #eef0f1;
+  border-style: solid;
+  border-width: 1%;
 }
 .wrappertop .introtext {
   width: 100%;
@@ -143,6 +152,45 @@ body {
   justify-content: center;
   align-items: center;
   padding: 3%;
+}
+
+.wrapperdown {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.wrapperdown .midleft {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  padding: 3%;
+}
+.wrapperdown .midleft .lesengrenages {
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+}
+.wrapperdown .midleft .lesengrenages .engrenage {
+  width: 100%;
+}
+.wrapperdown .midright {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  padding: 3%;
+}
+.wrapperdown .midright .mosaique {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */
