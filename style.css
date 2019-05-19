@@ -20,6 +20,9 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
+  border-width: 10%;
+  border-color: #eef0f1;
+  border-style: dotted;
 }
 .wrappertop .wrappertopleft {
   width: 50%;
@@ -65,14 +68,17 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
+  border-width: 10%;
+  border-color: #eef0f1;
+  border-style: dotted;
   padding: 3%;
-  background-color: #eef0f1;
+  background-color: #00a8e2;
 }
 .wrappermiddle .midleft {
   display: flex;
   flex-direction: column;
   width: 50%;
-  background-color: #d74d61;
+  background-color: #00a8e2;
 }
 .wrappermiddle .midleft .wrappermiddleleft {
   width: 100%;
@@ -124,7 +130,7 @@ nav {
   width: 15%;
 }
 .wrappermiddle .midright {
-  background-color: #d74d61;
+  background-color: #00a8e2;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -158,6 +164,10 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-color: #6dba49;
+  border-width: 10%;
+  border-color: #eef0f1;
+  border-style: dotted;
 }
 .wrapperdown .midleft {
   width: 50%;
@@ -181,7 +191,7 @@ nav {
 .wrapperdown .midright {
   width: 50%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 3%;
@@ -189,8 +199,60 @@ nav {
 }
 .wrapperdown .midright .mosaique {
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
   display: flex;
   flex-direction: row;
+}
+.wrapperdown .midright .mosaique .p {
+  font-size: 5vw;
+}
+.wrapperdown .midright .mosaique .team {
+  width: 100%;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+.wrapperdown .midright .mosaique .team #perruque {
+  width: 25%;
+}
+
+.wrapperme {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  border-width: 10%;
+  border-color: #eef0f1;
+  border-style: dotted;
+}
+.wrapperme .midleft {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  padding: 1%;
+}
+.wrapperme .midright {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+.wrapperme .midright .form {
+  width: 50%;
+  border-radius: 10%;
+  background-color: #eef0f1;
+}
+
+.textskill {
+  font-size: 2.8 vw;
 }
 
 /*# sourceMappingURL=style.css.map */

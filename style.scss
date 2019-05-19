@@ -19,6 +19,7 @@ nav {
 .wrappertop{
     width:$width;
     @include flexOrient(row);
+    @include bordureWrapper(rgb(238, 240, 241));
     .wrappertopleft{
     width:$widthbis;
     @include flexOrient(column);
@@ -45,12 +46,13 @@ nav {
 .wrappermiddle{
     width:$width;
     @include flexOrient(row);
+    @include bordureWrapper($backColorbge);
     padding:3%;
-    background-color: $backColorbge;
+    background-color: $backColorblue;
     .midleft{
     @include flexOrient(column);
     width:$widthbis;
-    background-color:$backColor;
+    background-color:$backColorblue;
     .wrappermiddleleft{
     width:$width;
     @include flexOrient(row);
@@ -66,7 +68,7 @@ nav {
     #batman{width:80%;}
     .brand-logo{width:$widthfi;}
     }
-    .midright{background-color: $backColor;
+    .midright{background-color: $backColorblue;
     width:$widthbis;@include flexOrient(column);padding:3%;@include flexCenter();
     i{font-size:$isize;padding:2%;}
     .webdesign{width:$width;@include flexOrient(row);@include flexCenter();}
@@ -74,12 +76,18 @@ nav {
     }
 }
 .wrapperdown{
-    width:$width;@include flexOrient(row);
+    width:$width;@include flexOrient(row);background-color:$backColorgreen;@include bordureWrapper($backColorbge);
     .midleft{
         width:$widthbis;@include flexOrient(row);@include flexCenter();padding:3%;
         .lesengrenages{@include flexCenter();@include flexOrient(row);
-            .engrenage{width:$width;#toolone{};}
+            .engrenage{width:$width;}
         }
     }
-    .midright{width:$widthbis;@include flexOrient(row);@include flexCenter();padding:3%;.mosaique{width:$width;@include flexOrient(row);}
+    .midright{width:$widthbis;@include flexOrient(column);@include flexCenter();padding:3%;.mosaique{width:$width;@include flexCenter();@include flexOrient(row);.p{font-size:$polSize;}.team{width:$width;padding: 1%; @include flexCenter();#perruque{width:$widthf;}}}
     }};
+.wrapperme{
+    width:$width; @include flexOrient(row); @include flexCenter(); @include bordureWrapper($backColorbge);
+    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;};
+    .midright{width:$widthbis;@include flexCenter();.form{width:$widthbis;border-radius: 10%;background-color:$backColorbge;};};};
+
+.textskill{font-size: 2.8 vw;}
