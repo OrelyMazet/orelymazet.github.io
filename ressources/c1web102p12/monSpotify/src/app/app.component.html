@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>Welcome to {{title}}!</h1>
+  <a [href]="monSpotifyService.authorizeURL">Login</a>
+  <a routerLink="/playlist">Les Playlists</a>
+  <!-- <app-play-list></app-play-list> -->
+  <!---<ul *ngIf="playlist">-->
+    <!-- <li *ngFor="let items of playlist.items"><a href="{{ items.uri}">{{ items.name}}</a> -->
+    <!-- </li> -->
+   <!-- </ul> -->
+ <!--<app-user-authorization></app-user-authorization>-->
+
+<router-outlet></router-outlet>

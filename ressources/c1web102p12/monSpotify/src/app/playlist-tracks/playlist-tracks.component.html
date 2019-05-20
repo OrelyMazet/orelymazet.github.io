@@ -1,0 +1,6 @@
+
+<ul *ngIf="trackplaylist">
+  <li *ngFor="let item of trackplaylist.items"><a [routerLink]="['/items',item.name]">{{item.track.name}}</a>
+  </li>
+</ul>
+

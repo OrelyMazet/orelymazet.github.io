@@ -1,0 +1,26 @@
+// les mixins
+
+@mixin flexCenter($direction){
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:$direction;
+}
+@mixin troisImages(){
+    width:33%;
+    padding-top:2%;
+}
+
+@mixin textMenu(){
+    color:white;
+}
+
+@mixin bouton(){
+    border-radius:8%;
+    width:35%;
+}
+@mixin media-max($_max-width){
+     @media screen and (max-width:$_max-width){
+        &{ @content;}
+    }
+}

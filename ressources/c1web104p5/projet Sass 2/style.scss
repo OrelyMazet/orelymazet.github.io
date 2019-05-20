@@ -1,0 +1,232 @@
+@import'./import/mixins.scss';
+@import'./import/variables.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.wrapper {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    @include media-max(768px){
+        max-width:768px;
+    }
+    @include media-max(375px){
+        max-width:375px;
+    }
+}
+
+header {
+
+    .topGlacier {
+        width: $width;
+        height: 20%;
+    }
+
+    .imgHeader {
+        width: $width;
+        position: relative;
+        display: block;
+    }
+
+    .imgHello {
+        width: 50%;
+        height: 40%;
+        position: absolute;
+        top: 7%;
+        padding-left: 28%;
+        @include media-max(768px){
+            width: 40%;
+            height:10%;
+            top:5%;
+        }
+       @include media-max(375px){
+            top:3%;
+        }
+    }
+}
+
+.menu {
+    width: 100%;
+    @include flexCenter(row);
+    background-color: $blueLight;
+    @include media-max(375px){
+        @include flexCenter(column);
+    }
+}
+
+.naviguer {
+    @include troisImages();
+    @include flexCenter(column);
+}
+
+.imgNav {
+    width: 40%;
+}
+
+.imgConect {
+    width: 40%;
+}
+
+.imgAna {
+    width: 40%;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: $textColor;
+}
+
+.petittext {
+    @include textMenu();
+    font-size: $minipara;
+    width: 85%;
+    padding: 2%;
+    @include media-max(768px){
+        width:80%;
+        font-size:1em;
+    }
+    @include media-max(375px){
+        width:180%;
+    }
+}
+
+.quatreQuart {
+    width: 100%;
+    @include flexCenter(row);
+    @include media-max(768px){
+        @include flexCenter(column);
+     }
+}
+
+.lorem {
+    width: auto;
+    @include textMenu();
+    padding-left:2%;
+    padding-right:2%;
+}
+
+h2 {
+    font-size: 4em;
+    @include textMenu();
+    text-align:right;
+    margin:0;
+    padding:0;
+}
+
+.grdtext {
+    font-size: $grdpara;
+    @include textMenu();
+    padding-left:9%;
+}
+
+#ipsum {
+    background-color: rgb(233, 248, 255);
+}
+
+#amet {
+    background-color: rgb(188, 227, 247);
+}
+
+#nulla {
+    background-color: rgb(165, 211, 236);
+}
+
+#adipis {
+    background-color: rgb(145, 195, 221);
+}
+
+.carousel {
+    width: 100%;
+    height: 40%;
+    position:relative;
+}
+
+.imgMountain {
+    width: 100%;
+    display: block;
+}
+.back {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    top:45%;
+    left: 5%;
+}
+
+.next {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    right: 5%;
+    top:45%;
+}
+
+.letter {
+    background-color: $colorNletter;
+    width: 100%;
+    height: 25%;
+    @include flexCenter(column);
+}
+
+.wrapperLetter {
+    @include flexCenter(column);
+    margin: 5% 8% 5% 8%;
+}
+
+.texteLetter {
+    width: 100%;
+    color: white;
+    font-size: 3em;
+    padding: 3%;
+    @include media-max(768px){
+        font-size:1.7em;
+    }
+    @include media-max(375px){
+        font-size:1.3em;
+    }
+}
+
+.zone {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+}
+
+.mail {
+    width: $width;
+    margin-right: 5%;
+}
+
+.boutton {
+    width: 10%;
+    height: 5%;
+    background-color: $colorbouton;
+    @include bouton();
+    padding: 3%;
+    @include textMenu();
+    font-size: 1.8em;
+    @include media-max(375px){
+        font-size:1em;
+    }
+}
+
+footer {
+    @include flexCenter(row);
+    width: 100%;
+    background-color: $colorLove;
+}
+
+.zone {
+    display: flex;
+    flex-direction: row;
+}
+
+.textfooter {
+    font-size: 0.8em;
+    @include textMenu();
+}

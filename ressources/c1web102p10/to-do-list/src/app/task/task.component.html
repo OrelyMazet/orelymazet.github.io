@@ -1,0 +1,8 @@
+
+<li>
+<input type="checkbox" value='{{status}}' id="taskbox" name="lesTaches" checked>
+<label for="taskbox">{{nameTask}}</label>
+<input #userEdit (keyup.enter)="addTask(userEdit.value)" (changeTask)="addTask(userEdit.value); userEdit.value='' ">
+<button (click)="addTask(userEdit.value)">Edit</button>
+</li>
+

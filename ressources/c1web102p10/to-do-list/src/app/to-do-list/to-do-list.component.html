@@ -1,0 +1,13 @@
+<h2>{{title}}</h2>
+
+<input #titleToDo (keyup.enter)="editTitle(titleToDo.value)" (changeTask)="editTitle(titleToDo.value);titleToDo.value='' ">
+<button (click)="editTitle(titleToDo.value)">Edit</button>
+<app-task *ngFor="let name of nameTask" [nameTask]="name"></app-task>
+<ng-template appTaskdirective></ng-template>
+<div>
+    <input #oufnewtask (keyup.enter)="addTask(oufnewtask.value)" type="text" name="ouf">
+    <button>Add</button>
+</div>
+
+
+

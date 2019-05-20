@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+   }
+   
+   *,* :before, *:after {
+    box-sizing: inherit;
+   }
+.wrapper {
+    width: 955px;
+    margin: 0 auto 0 auto;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color:white;
+    border: 955px;
+    background-color: blue;
+}
+#bouton_envoyer
+{ color:blueviolet;
+
+}
+.title {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 93px;
+    width: 100%;
+
+}
+
+.h1 {
+    font-size: 19px;
+    display : inline-block;
+    /*flex-direction : row;*/
+    text-align: center;
+    width :280px;
+    height:68px;
+    margin:auto;
+    padding:25px;
+
+}
+.h2{
+    margin:0;
+    padding:0;
+}
+.h3{
+    display : inline-block;
+    /*flex-direction : row;*/
+    text-align: center;
+    width :200px;
+    height:0px;
+    margin:0;
+    padding:0;
+
+}

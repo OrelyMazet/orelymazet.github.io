@@ -1,0 +1,363 @@
+//imports
+@import "import/mixins.scss";
+@import "import/variables.scss";
+
+body {
+    max-width: 100%;
+    font-size: 14px;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+    list-style: none;
+}
+
+header {
+    position: relative;
+    max-height: 25%;
+    width: $width;
+    margin: 0;
+    border: none;
+    display:block;
+}
+
+.topmenu {
+    position: absolute;
+    width: $width;
+    text-align: right;
+    max-height: 12%;
+    top:1%;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 0;
+    border: none;
+}
+
+#home {
+    max-height: 2%;
+    width: 3%;
+    padding-right: 1%;
+}
+
+#burger {
+    max-height: 2%;
+    width: 3%;
+    padding-right: 4%;
+}
+
+#grdefusee {
+    width: 100%;
+}
+
+h1 {
+    size: 20px;
+    color: $texte-paragraphe
+}
+
+p {
+    color: $texte-paragraphe;
+    text-align: center;
+}
+
+.conteneur1 {
+    width: $width;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.topconteneur1 {
+    width: $width;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.les3rondes {
+    width: 50%;
+}
+
+.apprendre {
+    width: 33%;
+    background-color: $bckgrd-gris;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: $margin;
+    padding-top: $pdg-top;
+}
+
+.explorer {
+    width: 33%;
+    background-color: $bckgrd-gris;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: $margin;
+    padding-top: $pdg-top;
+}
+
+.anticiper {
+    width: 33%;
+    background-color: $bckgrd-gris;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: $margin;
+    padding-top: $pdg-top;
+}
+
+.textsection {
+    width: 60%;
+    text-align: justify;
+    padding: 2%;
+}
+
+.conteneur2 {
+    width: $width;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 2%;
+}
+
+#barre_grise {
+    width: 98%;
+    height: auto;
+}
+
+.moon {
+    width: $width;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+}
+
+#moontext {
+    font-size: $titrecont2;
+    margin: 2%;
+    width: 25%;
+    height: 100%;
+    padding-left: 10%;
+    color: $texte-paragraphe;
+}
+
+.tour {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 20%;
+    padding-left: 25%;
+    text-align: center;
+}
+
+#astronaut {
+    width: 55%;
+    height: 45%;
+    padding-top: 1%;
+    margin-top: -12%;
+    padding-right: 6%;
+}
+
+#texttour {
+    border: blue;
+    border-style: solid;
+    width: 70%;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 8%;
+    border-width: 1px;
+    height: 50%;
+    padding: 3%;
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+}
+
+#blu {
+    color: blue; 
+}
+
+.explorelearn {
+    width: $width;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+    font-size: 25px;
+}
+
+.lesaliens {
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#aliens {
+    width: 70%;
+    padding-right: 5%
+}
+
+.carreexplorelearn {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    width: 40%;
+    text-align: center;
+    margin-right: 10%;
+    color:$texte-paragraphe;
+
+}
+
+.textexplo {
+    padding-left: 18%;
+    padding-right: 10%;
+}
+
+#et {
+    color: rgb(147, 199, 239)
+}
+
+.conteneur3 {
+    width: $width;
+    display: flex;
+    flex-direction: column;
+}
+
+.topconteneur3 {
+    width: 50%;
+    text-align: left;
+    color: $texte-paragraphe;
+    font-size: 25px;
+    padding-left: 8%;
+}
+
+.middleconteneur3 {
+    display: flex;
+    flex-direction: row;
+    width: $width;
+    padding-top: 3%;
+    padding-left: 8%;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0
+}
+
+.lesheros {
+    width: 50%;
+}
+
+.formulaire-button {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.hommeastro {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    align-items: center;
+}
+
+.femmeastro {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    align-items: center;
+}
+
+#texthomastro {
+    width: 50%;
+}
+
+#textfemastro {
+    width: 50%;
+}
+
+#menastro {
+    width: 15%;
+    padding-right:4%;
+}
+
+#womenastro {
+    width: 15%;
+    padding-right:4%;
+}
+
+.champform {
+    background-color: $bckgrd-gris;
+    padding: 5%;
+}
+
+input {
+    width: $width;
+    height: 15%;
+}
+
+.libelléform {
+    text-align: left;
+    color: gray;
+}
+
+.nom {
+    width: 100%;
+    height: 25px;
+}
+
+.coment {
+    width: 100%;
+    height: 50px;
+}
+
+#bouton {
+    @include border-radius(5%);
+    text-align: center;
+    size:18px;
+    padding-top: $pdg-top;
+    margin: $margebouton;
+    background-color: $colobouton;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom:2%;
+}
+
+;
+
+.downconteneur3 {
+    width: $width;
+}
+
+#cloud {
+    width: $width;
+}
+
+footer {
+    width: $width;
+    height: 20%;
+    background-color: rgb(44, 59, 90);
+    text-align: center;
+    align-items: center;
+}
+
+.textfooter {
+    color: white;
+    padding: 1%;
+    margin:0;
+}
+
+#gotothemoon {
+    color: $texte-paragraphe;
+    size: $textecont1;
+}

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    font-family: Raleway;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.firstcont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15%;
+}
+
+.boxfirstcontun {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+}
+
+.boxfirstcontdeux {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 15%;
+}
+
+.emojiface {
+    width: 35%;
+    height: 20%;
+    align-items: center;
+    margin: 2%;
+    padding-bottom: 4%;
+    display: flex;
+    border-color: white;
+    border-style: dotted;
+    border-radius: 5%;
+}
+
+#faceun {
+    width: 38%;
+    position: relative;
+}
+
+#happyeyes {
+    width: 10%;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+}
+
+#sadmouth {
+    width: 10%;
+    position: absolute;
+    top: 17%;
+    left: 3%;
+}
+
+.lesengrenages {
+    width: 68%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+}
+
+.engrenage {
+    width: 15%;
+    height: 14%;
+    bottom: 60%;
+}
+
+#tuyau {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -25%;
+    margin-top: 10%;
+}
+
+#tap {
+    width: 35%;
+    height: 18%;
+    margin: 2%;
+    padding-right: 10%;
+}
+
+.funnel {
+    height: 40%;
+    margin: 2%;
+    padding: 5%;
+}
+
+#twofunel {
+    height: 40%;
+    margin: 2%;
+}
+
+.facehappy {
+    width: 50%;
+    margin: 10%;
+    height: 15%;
+    align-items: center;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#facedeux {
+    width: 25%;
+    position: relative;
+    height: 15%
+}
+
+#loveeyes {
+    width: 8%;
+    position: absolute;
+    top: 40%;
+    right: 50%
+}
+
+#happymouth {
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+#conveyor {
+    width: 20%;
+    position: absolute;
+    top: -10%;
+}
+
+#exte {
+    color: white;
+    size: 14px;
+}

@@ -1,0 +1,429 @@
+html {
+    box-sizing: border-box;
+   }
+   
+   *,* :before, *:after {
+    box-sizing: inherit;
+   }
+.wrapper {
+    width: 955px;
+    margin: 0 auto 0 auto;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    border: 955px;
+    font-size:12px;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 580px;
+    width: 935px;
+    padding: 10px;
+
+}
+
+.soussection {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    width:640px;
+    height:580px;
+
+}
+
+.tete {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 93px;
+    width: 100%;
+
+}
+
+.h1 {
+    font-size: 19px;
+    display : inline-block;
+    /*flex-direction : row;*/
+    text-align: center;
+    width :280px;
+    height:68px;
+    margin:auto;
+    padding:25px;
+
+}
+.h2{
+    margin:0;
+    padding:0;
+}
+.h3{
+    display : inline-block;
+    /*flex-direction : row;*/
+    text-align: center;
+    width :200px;
+    height:0px;
+    margin:0;
+    padding:0;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+    background-color: #660033;
+    width: 100%;
+    margin: 0px;
+    padding: Opx;
+}
+
+.sousdescript {
+    width: 280px;
+}
+
+.puce {
+    list-style-type: none;
+}
+
+.titre {
+    font-size: 25px;
+    color: white;
+}
+
+.topmenu {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-end;
+    list-style-type: none;
+
+}
+
+#verticalmenu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.verticalmenu a {
+    display: block;
+    height: 44px;
+    margin-bottom: 8px;
+    line-height: 44px;
+    color: #000;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.verticalmenu a.on,
+.verticalmenu a:hover {
+    background: #000 url("resources/pastille.jpg") no-repeat 8px center;
+    color: #fff;
+}
+
+nav a {
+    display: block;
+    height: 44px;
+    margin-bottom: 8px;
+    line-height: 44px;
+    color: #000;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+nav a.on,
+a:hover {
+    background: #000 url("resources/pastille.jpg") no-repeat 8px center;
+    color: #fff;
+}
+
+.imagetitre {
+    width: 640px;
+    height: 380px;
+    display: block;
+    flex-direction: row;
+    justify-items: left;
+}
+.conteneur1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: white;
+    height: 580px;
+    width: 280px;
+    font-size: 11px;
+    padding:5px;
+}
+.titredescriptif
+{
+    border-bottom: 1px solid;
+}
+
+.descripthotel {
+
+    width:270px;
+
+}
+.titremap{
+    border-bottom: 1px solid;
+}
+.phraserose{
+    color:#660033;
+}
+.conteneur2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    background-color: #cccccc;
+    height: 265px;
+    width: 640px;
+    font-size: 12px;
+    margin: auto;
+}
+
+.bienvenue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5px 0 5px;
+    width:640px;
+    height:265px;
+    padding:10px;
+}
+
+.hotel {
+    margin: O;
+    padding: 0 5px 5px 5px;
+    display : flex;
+    flex-direction : column;
+    width:270px;
+}
+.textehotel
+{
+    width:270px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin:0px;
+}
+.btn1{
+    display:inline-block;
+    float:right;
+     /*flex-direction : row;
+    justify-content: right;*/
+    color:white;
+    background-color: #660033;
+    /*padding-top: 1px;
+    padding-right: 10px;
+    max-width: 970px;
+    height: 20px;*/
+}
+.btn2{
+    display:block;
+    float:left;
+     /*flex-direction : row;
+    justify-content: right;*/
+    color:black;
+    background-color:#cccccc;
+    margin: auto;
+    padding:0px;
+    font-size:10px;
+}
+.btn3{
+    display:block;
+    position:relative;
+    float: right;
+    /*right:15px;*/
+    bottom:-4px;
+    color: white;
+    background-color:#660033;
+    /*margin: auto;*/
+    /*padding-right:7px;*/
+    height: 25px;
+    width:auto;
+    margin-left:180px;
+    margin-right: 2px;
+    padding-left:1px;
+    padding-right: 1px;
+}
+.btnbienvenue{
+    display:block;
+    position:relative;
+    float: right;
+    /*right:15px;*/
+    bottom:10px;
+    color: white;
+    background-color:#660033;
+    /*margin: auto;*/
+    /*padding-right:7px;*/
+    height: 20px;
+    width:80px;
+    margin-left:180px;
+    margin-right: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.titrehotel
+{
+    width:270px;
+    display: flex;
+    flex-direction:column;
+    border-bottom: 1px solid;
+}
+.offre {
+    display: flex;
+    flex-direction: row;
+    width: 640px;
+    justify-content: space-between;
+    
+}
+.imagebienvenue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height:300px;
+}
+
+.conteneur3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #cccccc;
+    height: 300px;
+    width: 315px;
+    padding:5px
+}
+.titreoffredécouv{
+    border-bottom: 1px solid;
+    margin:0;
+    padding:O;
+}
+
+.deluxe {
+    display: flex;
+    flex-direction: row;
+    width:310px;
+    height:125px;
+    padding:3px;
+    border-top-color:gray;
+    border-bottom-color:gray;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+.imagedeluxe {
+    display: block;
+    /*flex-direction: row;
+    justify-content: center;*/
+    height: 83px;
+    width: 113px;
+    max-width: 300px;
+    max-height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+.textedeluxe{
+    display: block;
+    float: left;
+    font-size: 12px;
+    text-align:left;
+    width:200px;
+    margin:0;
+    padding:O;
+}
+.luxepatio{
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    width:185px;
+    height:auto;
+}
+
+.single {
+    display: flex;
+    flex-direction: row;
+    width:310px;
+    border-top-color:gray;
+    border-bottom-color:gray;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    margin:0px;
+    padding:5px;
+    height:125px;
+}
+.textesingle{
+    display: block;
+    float:left;
+    text-align: left;
+    font-size: 12px;
+    width:200px;
+    margin:0;
+    padding:4px;;
+}
+.imagesingle {
+    display: block;
+    /*flex-direction: row;
+    justify-content: center;*/
+    height: 83px;
+    width: 113px;
+    max-width: 300px;
+    max-height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.conteneur4 {
+    background-color: #660033;
+    height : 300px;
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.titreoffrespé{
+    border-bottom: 1px solid;
+    margin:0;
+    padding:O;
+}
+#btnOffres{
+    border-color: #660033;
+    color:white;
+    font-size:15px;
+}
+.toto {
+    font-size: 12px;
+    font-style: bold;
+}
+
+.tableau {
+    color: white;
+    width: 300px;
+    padding:15px;
+}
+tr,td{
+    border-bottom: 1px;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+}
+
+footer {clear:both;background-color:#000;height:45px;line-height:45px;text-align:center;color:#CCC;}
+footer a{color:#AAA;text-decoration:none;text-transform:uppercase;}
+footer a.mail{text-transform:lowercase;}
+footer a:hover{color:#fff;}

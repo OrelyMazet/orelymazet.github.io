@@ -1,0 +1,19 @@
+<h1>create your Playlist</h1>
+
+<form>
+  <div>
+    <label for="Name">Nom nouvelle Playlist</label>
+    <input type="text" [formControl]="Name">
+  </div>
+  <div>
+    <label for="Description">Description Playlist</label>
+    <input type="text" [formControl]="Description">
+  </div>
+  <div>
+    <label for="Public">Propriété Playlist</label>
+    <input type="text" [formControl]="Public">
+  </div>
+</form>
+
+
+<button (click)="onclick()">Create a playlist</button>

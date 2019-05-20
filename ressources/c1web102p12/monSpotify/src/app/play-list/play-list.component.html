@@ -1,0 +1,7 @@
+<ul *ngIf="playlist">
+  <li *ngFor="let item of playlist.items">
+    <a [routerLink]="['/items', item.id]">{{item.name}}</a>
+  </li>
+</ul>
+
+<app-createplaylist></app-createplaylist>

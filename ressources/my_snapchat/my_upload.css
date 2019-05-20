@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+   }
+   
+   *,* :before, *:after {
+    box-sizing: inherit;
+   }
+.wrapper {
+    width: 955px;
+    margin: 0 auto 0 auto;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color:white;
+    border: 955px;
+    background-color:pink;
+}
+#Contact
+{ color:black;
+}
+.title {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 93px;
+    width: 100%;
+}
+
+.h1 {
+    font-size: 19px;
+    display : inline-block;
+    text-align: center;
+    width :280px;
+    height:68px;
+    margin:auto;
+    padding:25px;
+}
+.items {
+    display : flex;
+    flex-direction: row;
+    justify-items: center;
+}
