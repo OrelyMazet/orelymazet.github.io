@@ -84,12 +84,15 @@ nav {
             .engrenage{width:$width;}.textskill{font-size:1.5vw;justify-content:center;};
         }
     }
-    .midright{width:$widthbis;@include flexOrient(column);@include flexCenter();.textskill{width:$width;font-size:2vw;};.mosaique{width:$width;@include flexCenter();@include flexOrient(row);.p{font-size:$polSize;}.team{width:$widthhigh;@include flexOrient(row); @include flexCenter();#perruque{width:$widthf;margin:3%;}}}
+    .midright{width:$widthbis;@include flexOrient(column);@include flexCenter();.textskill{width:$width;font-size:2vw;};.mosaique{width:$width;@include flexOrient(row);.p{font-size:$polSize;}.team{width:$widthhigh;@include flexOrient(row); @include flexCenter();#perruque{width:42%;margin:3%;}}}
     }};
 .wrapperme{
     width:$width; @include flexOrient(row); @include flexCenter(); @include bordureWrapper($backColorbge);
-    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;.titreform{width:$width;};form{background-color:$backColorbge;border-radius: 8%;color:$backColor;@include flexCenter();};}
-    .midright{width:$widthbis;@include flexCenter();.form{width:$widthbis;border-radius: 10%;background-color:$backColorbge;};};};
+    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;.formulaire{width:$widthhigh;@include flexOrient(column)};.titreform{width:$width;};form{background-color:$backColorbge;border-radius: 12%;color:$backColor;@include flexCenter();};}
+    .midright{width:$widthbis;@include flexCenter();.form{width:$widthbis;border-radius: 50%;background-color:$backColorbge;};}}
 
 .textskill{font-size: 2.8 vw;};
+.bouton{@include flexCenter();}
+.contact{font-size:1.8vw;}
+.btn{background-color: rgb(109, 186, 73)!important; margin:2%;width: $widthbis; border-radius:40%;height:8%;};
 

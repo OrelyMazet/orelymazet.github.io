@@ -2,6 +2,14 @@
 <html lang="fr">
 
 <head>
+  <script> var dataLayer = [{}];</script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K9V3SD9');</script>
+    <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="./style.css">
@@ -19,6 +27,10 @@
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9V3SD9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="wrapper">
     <section class="wrappertop">
       <div class="wrappertopleft">
@@ -30,7 +42,7 @@
           <nav>
             <ul id="nav-mobile" class="hide-on-med-and-down">
               <a href="#"><i class="material-icons">palette</i></a>
-              <a href="http://www.aurelie-mazet.com/"><i class="material-icons">picture_as_pdf</i></a>
+              <a href="http://www.aurelie-mazet.com/" target="_blank"><i class="material-icons">picture_as_pdf</i>Zoom sur CV</a>
               <a href="#"><i class="material-icons">email</i></a>
             </ul>
           </nav>
@@ -64,7 +76,7 @@
   <div class="wrappermiddleright">
       <div class="realisation">
           <div class="picture">
-            <img src="ressources/c1web104p6/image_resources/batman/batman-figurine.jpg" id="batman" class="responsive-img">
+            <img src="./ressources/c1web104p6/image_resources/batman/batman-figurine.jpg" id="batman" class="responsive-img">
           </div>
           <div class="lien">
             <a href="./ressources/c1web104p6/indexBatman.html">Batman</a>
@@ -72,7 +84,7 @@
         </div>
         <div class="realisation">
           <div class="picture">
-            <img src="ressources/Accessibility_Semantics/img/gallery_01.jpg" id="access" class="responsive-img">
+            <img src="./ressources/Accessibility_Semantics/img/gallery_01.jpg" id="access" class="responsive-img">
           </div>
           <div class="lien">
             <a href="./ressources/c1web104p6/index0204.html">Fusci di Como</a>
@@ -118,20 +130,24 @@
     </section>
     <section class="wrapperme">
       <div class="midleft">
+      <div class="formulaire">
       <div class="titreform">
       <h3>You & Me</h3></div>
-      <form>
-      <input type="text" name="prénom" placeholder="Votre prénom">
-      <input type="text" name="nom" placeholder="Votre nom de famille">
+      <form action="https://formspree.io/aurelie.mazet@coding-academy.fr" method="POST" />
+      <input type="text" name="prénom" placeholder="Prénom">
+      <input type="text" name="nom" placeholder="Nom de famille">
       <input type="email" name="email" placeholder="Adresse email">
-      <input type="text" placeholder="Votre projet">
-      <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Envoyer</a>
+      <input type="text" placeholder="Votre projet"><br><br><br><br>
       </form>
+      <span class="bouton">
+      <a class="waves-effect waves-light btn">Envoyer</a></span>
+      </div>
       </div>
       <div class="midright">
         <div class="contact">
-        <p><i class="material-icons">email</i></p>
-        <p><i class="material-icons">phone</i></p>
+        <p><i class="small material-icons">email</i>aurelie.mazet@coding-academy.fr</p>
+        <p><i class="small material-icons">phone</i>+33(0)6.11.34.19.39</p>
+        <p>Latitude : 48.8534 & Longitude : 2.3488</p>
         </div>
       </div>
     </section>
