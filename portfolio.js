@@ -1,4 +1,4 @@
-/*window.onclick= function(){
+window.onclick= function(){
 
     let  toast = document.getElementsByClassName("facehappy")[0];
     var emojiface=document.getElementsByClassName("emojiface")[0];
@@ -12,4 +12,4 @@
     
     tl.to(document.getElementById("tuyau"), 5, {right:100, ease:Bounce.easeOut,});
     console.log("happy")
-}*/
+}
