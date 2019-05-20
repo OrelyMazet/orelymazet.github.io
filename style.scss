@@ -15,6 +15,7 @@ body {
 }
 nav {
     background-color: inherit;
+    a {@include flexOrient(row);}
 }
 .wrappertop{
     width:$width;
