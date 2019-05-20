@@ -1,4 +1,4 @@
-window.onclick= function(){
+/*window.onclick= function(){
 
     let  toast = document.getElementsByClassName("facehappy")[0];
     var emojiface=document.getElementsByClassName("emojiface")[0];
@@ -11,5 +11,5 @@ window.onclick= function(){
     TweenMax.to(document.getElementById("toolfour"),5,{rotation:190,x:"5%",delay:6});
     
     tl.to(document.getElementById("tuyau"), 5, {right:100, ease:Bounce.easeOut,});
-    console.log("happy")
-}
+    console.log("happy");
+}*/
