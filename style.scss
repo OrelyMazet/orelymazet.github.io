@@ -92,7 +92,7 @@ nav {
     .midright{width:$widthbis;@include flexCenter();.form{width:$widthbis;border-radius: 50%;background-color:$backColorbge;};}}
 
 .textskill{font-size: 2.8 vw;};
-.bouton{@include flexCenter();}
-.contact{font-size:1.8vw;}
+.bouton{display:flex; flex-direction:center;};
+.contact{font-size:1.8vw;};
 .btn{background-color: rgb(109, 186, 73)!important; margin:2%;width: $widthbis; border-radius:40%;height:8%;};
 
