@@ -170,7 +170,7 @@ nav {
   border-style: dotted;
 }
 .wrapperdown .midleft {
-  width: 50%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -185,8 +185,17 @@ nav {
   display: flex;
   flex-direction: row;
 }
+.wrapperdown .midleft .lesengrenages .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .wrapperdown .midleft .lesengrenages .engrenage {
   width: 100%;
+}
+.wrapperdown .midleft .lesengrenages .textskill {
+  font-size: 1.5vw;
+  justify-content: center;
 }
 .wrapperdown .midright {
   width: 50%;
@@ -195,7 +204,10 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 3%;
-  padding: 3%;
+}
+.wrapperdown .midright .textskill {
+  width: 100%;
+  font-size: 2vw;
 }
 .wrapperdown .midright .mosaique {
   width: 100%;
@@ -209,14 +221,16 @@ nav {
   font-size: 5vw;
 }
 .wrapperdown .midright .mosaique .team {
-  width: 100%;
-  padding: 1%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 3%;
 }
 .wrapperdown .midright .mosaique .team #perruque {
   width: 25%;
+  margin: 3%;
 }
 
 .wrapperme {
@@ -238,6 +252,17 @@ nav {
   align-items: center;
   padding: 3%;
   padding: 1%;
+}
+.wrapperme .midleft .titreform {
+  width: 100%;
+}
+.wrapperme .midleft form {
+  background-color: #eef0f1;
+  border-radius: 8%;
+  color: #d74d61;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
 }
 .wrapperme .midright {
   width: 50%;

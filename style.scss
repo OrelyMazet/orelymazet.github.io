@@ -78,16 +78,18 @@ nav {
 .wrapperdown{
     width:$width;@include flexOrient(row);background-color:$backColorgreen;@include bordureWrapper($backColorbge);
     .midleft{
-        width:$widthbis;@include flexOrient(row);@include flexCenter();padding:3%;
+        width:$widthhigh;@include flexOrient(row);@include flexCenter();padding:3%;
         .lesengrenages{@include flexCenter();@include flexOrient(row);
-            .engrenage{width:$width;}
+            .skills{@include flexOrient(column);justify-content:center;};
+            .engrenage{width:$width;}.textskill{font-size:1.5vw;justify-content:center;};
         }
     }
-    .midright{width:$widthbis;@include flexOrient(column);@include flexCenter();padding:3%;.mosaique{width:$width;@include flexCenter();@include flexOrient(row);.p{font-size:$polSize;}.team{width:$width;padding: 1%; @include flexCenter();#perruque{width:$widthf;}}}
+    .midright{width:$widthbis;@include flexOrient(column);@include flexCenter();.textskill{width:$width;font-size:2vw;};.mosaique{width:$width;@include flexCenter();@include flexOrient(row);.p{font-size:$polSize;}.team{width:$widthhigh;@include flexOrient(row); @include flexCenter();#perruque{width:$widthf;margin:3%;}}}
     }};
 .wrapperme{
     width:$width; @include flexOrient(row); @include flexCenter(); @include bordureWrapper($backColorbge);
-    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;};
+    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;.titreform{width:$width;};form{background-color:$backColorbge;border-radius: 8%;color:$backColor;@include flexCenter();};}
     .midright{width:$widthbis;@include flexCenter();.form{width:$widthbis;border-radius: 10%;background-color:$backColorbge;};};};
 
-.textskill{font-size: 2.8 vw;}
+.textskill{font-size: 2.8 vw;};
+
