@@ -133,14 +133,22 @@
       <div class="formulaire">
       <div class="titreform">
       <h3>You & Me</h3></div>
-      <form action="https://formspree.io/aurelie.mazet@coding-academy.fr" method="POST" />
+      <form onSubmit="myFunction();" action="https://formspree.io/aurelie.mazet@coding-academy.fr" method="POST" onsubmit="()"/>
       <input type="text" name="prénom" placeholder="Prénom">
       <input type="text" name="nom" placeholder="Nom de famille">
       <input type="email" name="email" placeholder="Adresse email">
       <input type="text" placeholder="Votre projet"><br><br><br><br>
-      </form>
       <span class="bouton">
-      <a class="waves-effect waves-light btn">Envoyer</a></span>
+      <button type="submit" value="Envoyer" class="waves-effect waves-light btn center"></button></span>
+      <script> function myFunction () {
+        dataLayer.push({
+        'event':'santianoEvent',
+        'eventCategory':'Utilisateur',
+        'eventAction':'Formulaire de contact',
+        'eventLabel':'Message envoyé',
+        'eventValue':'1'});
+        }</script>
+      </form>
       </div>
       </div>
       <div class="midright">
@@ -151,7 +159,6 @@
         </div>
       </div>
     </section>
-
   </div>
 </div>
   <!--JavaScript at end of body for optimized loading-->
