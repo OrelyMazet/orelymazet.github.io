@@ -6,7 +6,6 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
 .wrapper {
     background-color: $backColor;
     color:$textColor;
@@ -15,8 +14,10 @@ body {
 }
 nav {
     background-color: inherit;
-    a {@include flexOrient(row);}
+    a {@include flexOrient(row);
+    a:hover{background-color: rgb(215, 77, 97, 0.6);}}
 }
+
 .wrappertop{
     width:$width;
     @include flexOrient(row);
@@ -30,7 +31,7 @@ nav {
     width:$widthbis;
     @include flexOrient(column);
     @include flexRight();
-    #van{border-color: $backColorbge;border-style:solid;border-width: 1%;}
+    #van{border-color: $backColorbge;border-style:dotted;border-width: 1%;}
     }
     .introtext{
     width:$width;
@@ -40,7 +41,7 @@ nav {
     .menuintro{
     width:$width;
     @include flexOrient(row);
-    i{color:$textColor;font-size:$poliSize;}
+    i{color:$textColor;font-size:$poliSize;};
 }
 }
 
@@ -96,13 +97,12 @@ nav {
     }};
 .wrapperme{
     width:$width; @include flexOrient(row); @include flexCenter(); @include bordureWrapper($backColorbge);
-    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;.formulaire{width:$widthhigh;@include flexOrient(column)};.titreform{width:$width;};form{background-color:$backColorbge;border-radius: 15%;color:$backColor;@include flexCenter();};}
+    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;.formulaire{width:$widthhigh;@include flexOrient(column)};.titreform{width:$width;};form{background-color:$backColorbge;border-radius: 15%;color:$backColor;@include flexCenter();border-style:dotted;};}
     .midright{width:$widthbis; @include flexCenter(); @include flexOrient(column);.contact{width:$width; @include flexOrient(column);};.frimousse{width:$width;padding-top: 15%;padding-left:20%;};#face{width:25%;border-style:dotted; border-width:1%;border-color:$backColorbge;};}
 }
 
 .textskill{font-size: 2.6 vw;};
-.bouton{display:flex; flex-direction:center;padding-left:35%;};
+.bouton{display:flex; flex-direction:center;padding-left:30%;.btn{background-color: $backColorgreen !important; margin:2%; width: $widthbis; border-radius:40%;height:8%;};};
 .contact{font-size :1.5vw;i{font-size:2vw;margin:2%;};@include flexOrient(column);.iconedown{width:$width; @include flexOrient(row);};
-.btn{background-color: rgb(109, 186, 73)!important; margin:2%;width: $widthbis; border-radius:40%;height:8%;};
 
 }

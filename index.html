@@ -36,15 +36,15 @@
       <div class="wrappertopleft">
         <div class="introtext">
           <h1>Aurélie Mazet</h1>
-          <h2>dev frontEnd</h2>
+          <h2>Dev frontEnd</h2>
         </div>
         <div class="menuintro">
           <nav>
             <div class="nav-wrapper">
             <ul id="nav-mobile" class="left hide-on-med-and-down" class="collection with-header">
-                <li><a href="#"><i class="material-icons">palette</i></a></li>
+                <li><a onclick="maFunction()"><i class="material-icons">palette</i></a></li>
                 <li><a href="http://www.aurelie-mazet.com/" target="_blank"><i class="material-icons">picture_as_pdf</i></a></li>
-                  <li><a href="#"><i class="material-icons">email</i></a></li>
+                <li><a onclick="scdeFunction()"><i class="material-icons">email</i></a></li>
             </ul>
           </div>
           </nav>
@@ -110,7 +110,7 @@
 
   </section>
   <section class="wrapperdown">
-    <div class="midleft">
+    <div class="midleft" id="milieu">
         <div class="lesengrenages">
           <div class="skills">
             <img src="./ressources/tool_1 bleu.png" class="engrenage" id="toolone" alt="un engrenage"><p class="textskill">Projet Agile</p></div>
@@ -130,7 +130,7 @@
       <p class="textskill">Everything is not in Google....!</p>
     </div>
     </section>
-    <section class="wrapperme">
+    <section class="wrapperme" id="message">
       <div class="midleft">
       <div class="formulaire">
       <div class="titreform">
@@ -170,6 +170,8 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
   <script src="portfolio.js" type="text/Javascript"></script>
 </body>
 
