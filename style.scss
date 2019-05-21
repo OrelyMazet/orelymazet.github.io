@@ -58,15 +58,18 @@ nav {
     width:$width;
     @include flexOrient(row);
     #astronaut{width:90%;}
-    .realisation{width:auto;border-color: $backColorbge; border-radius:2%;border-style:dotted;margin:2%;padding:1%;@include flexCenter();a{color:$textColor;font-size:$poliMini;}}
+    .realisation{
+        width:auto;@include flexCenter();margin:2%;border-color: $backColorbge; border-radius:2%; border-style:dotted; a{color:$textColor;font-size:$poliMini;};}
     }
     .wrappermiddleright{
     width:$width;
     @include flexOrient(row);
     .realisation{
-        width:auto;border-color: $backColorbge; border-radius:2%;border-style:dotted;margin:2%;padding:1%;@include flexCenter();a{color:$textColor;font-size:$poliMini;}}
+        width:auto; margin:2%; border-color: $backColorbge; border-radius:2%;border-style:dotted; @include flexCenter();
+        a{color:$textColor;font-size:$poliMini;};
     }
-    #batman{width:80%;}
+    }
+    #batman{width:auto;}
     .brand-logo{width:$widthfi;}
     }
     .midright{background-color: $backColorblue;
@@ -79,21 +82,27 @@ nav {
 .wrapperdown{
     width:$width;@include flexOrient(row);background-color:$backColorgreen;@include bordureWrapper($backColorbge);
     .midleft{
-        width:$widthhigh;@include flexOrient(row);@include flexCenter();padding:3%;
-        .lesengrenages{@include flexCenter();@include flexOrient(row);
-            .skills{@include flexOrient(column);justify-content:center;};
-            .engrenage{width:$width;}.textskill{font-size:1.5vw;justify-content:center;};
+        width:$widthbis;@include flexOrient(row);@include flexCenter();
+        .lesengrenages{width:auto; justify-items: center; top:25%; @include flexOrient(row);
+            .skills{@include flexOrient(column);text-align: center;};
+            .engrenage{width:$width;}.textskill{font-size:1.6vw;text-align:center;};
         }
     }
-    .midright{width:$widthbis;@include flexOrient(column);@include flexCenter();.textskill{width:$width;font-size:2vw;};.mosaique{width:$width;@include flexOrient(row);.p{font-size:$polSize;}.team{width:$widthhigh;@include flexOrient(row); @include flexCenter();#perruque{width:42%;margin:3%;}}}
+    .midright{
+        width:$widthbis;@include flexOrient(column);@include flexCenter();
+        .textskill{width:$width;font-size:2vw;text-align:center;margin-left:7%;};
+        .mosaique{width:$width;@include flexOrient(row);
+            .p{font-size:$polSize;};.team{width:$widthhigh;@include flexOrient(row); @include flexCenter();#groupe{border-style:dotted; border-width:1%;border-color:$backColorbge;margin-left: 32%;};#perruque{width:42%;margin-left:3%;border-style:dotted; border-width:1%;border-color:$backColorbge;}}}
     }};
 .wrapperme{
     width:$width; @include flexOrient(row); @include flexCenter(); @include bordureWrapper($backColorbge);
-    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;.formulaire{width:$widthhigh;@include flexOrient(column)};.titreform{width:$width;};form{background-color:$backColorbge;border-radius: 12%;color:$backColor;@include flexCenter();};}
-    .midright{width:$widthbis;@include flexCenter();.form{width:$widthbis;border-radius: 50%;background-color:$backColorbge;};}}
+    .midleft{width:$widthbis;@include flexOrient(row); @include flexCenter();padding:1%;.formulaire{width:$widthhigh;@include flexOrient(column)};.titreform{width:$width;};form{background-color:$backColorbge;border-radius: 15%;color:$backColor;@include flexCenter();};}
+    .midright{width:$widthbis; @include flexCenter(); @include flexOrient(column);.contact{width:$width; @include flexOrient(column);};.frimousse{width:$width;padding-top: 15%;padding-left:20%;};#face{width:25%;border-style:dotted; border-width:1%;border-color:$backColorbge;};}
+}
 
-.textskill{font-size: 2.8 vw;};
-.bouton{display:flex; flex-direction:center;};
-.contact{font-size:1.8vw;};
+.textskill{font-size: 2.6 vw;};
+.bouton{display:flex; flex-direction:center;padding-left:35%;};
+.contact{font-size :1.5vw;i{font-size:2vw;margin:2%;};@include flexOrient(column);.iconedown{width:$width; @include flexOrient(row);};
 .btn{background-color: rgb(109, 186, 73)!important; margin:2%;width: $widthbis; border-radius:40%;height:8%;};
 
+}
