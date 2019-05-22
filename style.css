@@ -37,7 +37,7 @@ nav a a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
 }
 .wrappertop .wrappertopright {
   width: 50%;
@@ -45,7 +45,7 @@ nav a a:hover {
   flex-direction: column;
   justify-content: right;
   align-items: right;
-  padding: 3%;
+  padding: 2%;
 }
 .wrappertop .wrappertopright #van {
   border-color: #eef0f1;
@@ -78,7 +78,7 @@ nav a a:hover {
   border-width: 10%;
   border-color: #eef0f1;
   border-style: dotted;
-  padding: 3%;
+  padding: 2%;
   background-color: #00a8e2;
 }
 .wrappermiddle .midleft {
@@ -99,7 +99,7 @@ nav a a:hover {
   width: auto;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   margin: 2%;
   border-color: #eef0f1;
   border-radius: 2%;
@@ -108,6 +108,9 @@ nav a a:hover {
 .wrappermiddle .midleft .wrappermiddleleft .realisation a {
   color: #eef0f1;
   font-size: 1.8vw;
+}
+.wrappermiddle .midleft .wrappermiddleleft .realisation .lien a:hover {
+  color: #d74d61;
 }
 .wrappermiddle .midleft .wrappermiddleright {
   width: 100%;
@@ -122,11 +125,14 @@ nav a a:hover {
   border-style: dotted;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
 }
 .wrappermiddle .midleft .wrappermiddleright .realisation a {
   color: #eef0f1;
   font-size: 1.8vw;
+}
+.wrappermiddle .midleft .wrappermiddleright .realisation .lien a:hover {
+  color: #d74d61;
 }
 .wrappermiddle .midleft #batman {
   width: auto;
@@ -142,10 +148,10 @@ nav a a:hover {
   padding: 3%;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
 }
 .wrappermiddle .midright i {
-  font-size: 10vw;
+  font-size: 8vw;
   padding: 2%;
 }
 .wrappermiddle .midright .webdesign {
@@ -154,7 +160,7 @@ nav a a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
 }
 .wrappermiddle .midright .programmation {
   width: 100%;
@@ -162,7 +168,7 @@ nav a a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
 }
 
 .wrapperdown {
@@ -174,13 +180,28 @@ nav a a:hover {
   border-color: #eef0f1;
   border-style: dotted;
 }
+@media screen and (max-width: 375px) {
+  .wrapperdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+}
 .wrapperdown .midleft {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
+}
+@media screen and (max-width: 375px) {
+  .wrapperdown .midleft {
+    width: 75%;
+    margin-top: 4%;
+  }
 }
 .wrapperdown .midleft .lesengrenages {
   width: auto;
@@ -201,24 +222,39 @@ nav a a:hover {
   font-size: 1.6vw;
   text-align: center;
 }
+@media screen and (max-width: 375px) {
+  .wrapperdown .midleft .lesengrenages .textskill {
+    font-size: 2.5vw;
+  }
+}
 .wrapperdown .midright {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
 }
 .wrapperdown .midright .textskill {
   width: 100%;
-  font-size: 2vw;
+  font-size: 2.2vw;
   text-align: center;
   margin-left: 7%;
+}
+@media screen and (max-width: 375px) {
+  .wrapperdown .midright .textskill {
+    font-size: 3vw;
+  }
 }
 .wrapperdown .midright .mosaique {
   width: 100%;
   display: flex;
   flex-direction: row;
+}
+@media screen and (max-width: 375px) {
+  .wrapperdown .midright .mosaique {
+    font-size: 8 vw;
+  }
 }
 .wrapperdown .midright .mosaique .p {
   font-size: 5vw;
@@ -229,16 +265,22 @@ nav a a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
+}
+@media screen and (max-width: 375px) {
+  .wrapperdown .midright .mosaique .team {
+    width: auto;
+    margin-right: 5%;
+  }
 }
 .wrapperdown .midright .mosaique .team #groupe {
   border-style: dotted;
   border-width: 1%;
   border-color: #eef0f1;
-  margin-left: 32%;
+  margin-left: 25%;
 }
 .wrapperdown .midright .mosaique .team #perruque {
-  width: 42%;
+  width: 43%;
   margin-left: 3%;
   border-style: dotted;
   border-width: 1%;
@@ -251,10 +293,16 @@ nav a a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   border-width: 10%;
   border-color: #eef0f1;
   border-style: dotted;
+}
+@media screen and (max-width: 375px) {
+  .wrapperme {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .wrapperme .midleft {
   width: 50%;
@@ -262,8 +310,13 @@ nav a a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   padding: 1%;
+}
+@media screen and (max-width: 375px) {
+  .wrapperme .midleft {
+    width: 100%;
+  }
 }
 .wrapperme .midleft .formulaire {
   width: 75%;
@@ -273,22 +326,43 @@ nav a a:hover {
 .wrapperme .midleft .titreform {
   width: 100%;
 }
+@media screen and (max-width: 375px) {
+  .wrapperme .midleft .titreform h3 {
+    font-size: 6vw;
+  }
+}
 .wrapperme .midleft form {
   background-color: #eef0f1;
   border-radius: 15%;
   color: #d74d61;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   border-style: dotted;
+}
+@media screen and (max-width: 375px) {
+  .wrapperme .midleft form {
+    width: auto;
+    font-size: 1vw;
+  }
+  .wrapperme .midleft form button {
+    width: 50%;
+    font-size: 1.8vw;
+    margin-right: 25%;
+  }
 }
 .wrapperme .midright {
   width: 50%;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 375px) {
+  .wrapperme .midright {
+    width: 75%;
+  }
 }
 .wrapperme .midright .contact {
   width: 100%;
@@ -305,6 +379,12 @@ nav a a:hover {
   border-style: dotted;
   border-width: 1%;
   border-color: #eef0f1;
+}
+@media screen and (max-width: 375px) {
+  .wrapperme .midright #face {
+    width: 40%;
+    margin-left: 10%;
+  }
 }
 
 .textskill {
@@ -329,9 +409,19 @@ nav a a:hover {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 375px) {
+  .contact {
+    font-size: 3.3vw;
+  }
+}
 .contact i {
   font-size: 2vw;
   margin: 2%;
+}
+@media screen and (max-width: 375px) {
+  .contact i {
+    font-size: 4vw;
+  }
 }
 .contact .iconedown {
   width: 100%;

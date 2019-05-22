@@ -6,19 +6,19 @@
 @mixin flexCenter(){
     justify-content: center;
     align-items:center;
-    padding:3%;
+    padding:2%;
 }
 
 @mixin flexRight(){
     justify-content: right;
     align-items:right;
-    padding:3%;
+    padding:2%;
 }
 
 @mixin flexLeft(){
     justify-content: left;
     align-items:left;
-    padding:3%;
+    padding:2%;
 }
 
 @mixin bordureWrapper($couleur){
