@@ -17,7 +17,7 @@ let icone =document.getElementById("mail");
 icone.onclick= function(){
     let  toast = document.getElementById("face");
     var bou = new TimelineMax({onclick});
-    TweenMax.to(toast, 4, {x:200,ease:Bounce.easeOut,});
+    TweenMax.to(toast, 4, {x:150,ease:Bounce.easeOut,repeat:-1,});
     console.log("happiness");
 }
 

@@ -23,7 +23,26 @@ nav {
         a:hover {
             background-color: rgb(215, 77, 97, 0.6);
         }
+        
     }
+    a span {
+        display: none;
+        }
+        a:hover span {
+        display: inline;
+        position: absolute;
+        margin-top: 5%;
+        padding:2%;
+        left: 20%;
+        width: auto;
+        border:2px dotted $backColorbge;
+        border-top-left-radius: 20%;
+        background:$backColor;
+        text-align: center;
+        color: $backColorbge;
+        font-size:1vw;
+        @include media-max(375px){font-size:1.5vw; margin:0;padding:3%;};
+        }
 }
 
 .wrappertop {
@@ -172,6 +191,8 @@ nav {
             @include flexOrient(row);
             @include flexCenter();
         }
+        .autres { width:$widthfi;  @include flexOrient(row);
+            @include flexCenter();#mat{width:$width; padding-left:20%;};#gsap{width:81%; padding:5%;};#opquast{width:100%; padding-left:23%;}}
     }
 }
 
@@ -306,6 +327,23 @@ nav {
             color: $backColor;
             @include flexCenter();
             border-style: dotted;
+            ::-webkit-input-placeholder {
+                color: $backColor;
+                font-size: 1vw;
+                padding-left:3%;
+              }
+              ::-moz-placeholder {
+                color:$backColor;
+                font-size: 1vw;
+              }
+              :-ms-input-placeholder {
+                color: $backColor;
+                font-size: 1vw;
+              }
+              ::placeholder {
+                color: $backColor;
+                font-size: 1vw;
+              }
             @include media-max(375px){width:auto;font-size:1vw;button{width:50%;font-size:1.8vw;margin-right:25%;}}
         }
 

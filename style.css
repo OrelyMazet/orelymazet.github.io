@@ -22,6 +22,30 @@ nav a {
 nav a a:hover {
   background-color: rgba(215, 77, 97, 0.6);
 }
+nav a span {
+  display: none;
+}
+nav a:hover span {
+  display: inline;
+  position: absolute;
+  margin-top: 5%;
+  padding: 2%;
+  left: 20%;
+  width: auto;
+  border: 2px dotted #eef0f1;
+  border-top-left-radius: 20%;
+  background: #d74d61;
+  text-align: center;
+  color: #eef0f1;
+  font-size: 1vw;
+}
+@media screen and (max-width: 375px) {
+  nav a:hover span {
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 3%;
+  }
+}
 
 .wrappertop {
   width: 100%;
@@ -151,7 +175,7 @@ nav a a:hover {
   padding: 2%;
 }
 .wrappermiddle .midright i {
-  font-size: 8vw;
+  font-size: 6vw;
   padding: 2%;
 }
 .wrappermiddle .midright .webdesign {
@@ -169,6 +193,26 @@ nav a a:hover {
   justify-content: center;
   align-items: center;
   padding: 2%;
+}
+.wrappermiddle .midright .autres {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+.wrappermiddle .midright .autres #mat {
+  width: 100%;
+  padding-left: 20%;
+}
+.wrappermiddle .midright .autres #gsap {
+  width: 81%;
+  padding: 5%;
+}
+.wrappermiddle .midright .autres #opquast {
+  width: 100%;
+  padding-left: 23%;
 }
 
 .wrapperdown {
@@ -339,6 +383,23 @@ nav a a:hover {
   align-items: center;
   padding: 2%;
   border-style: dotted;
+}
+.wrapperme .midleft form ::-webkit-input-placeholder {
+  color: #d74d61;
+  font-size: 1vw;
+  padding-left: 3%;
+}
+.wrapperme .midleft form ::-moz-placeholder {
+  color: #d74d61;
+  font-size: 1vw;
+}
+.wrapperme .midleft form :-ms-input-placeholder {
+  color: #d74d61;
+  font-size: 1vw;
+}
+.wrapperme .midleft form ::placeholder {
+  color: #d74d61;
+  font-size: 1vw;
 }
 @media screen and (max-width: 375px) {
   .wrapperme .midleft form {
