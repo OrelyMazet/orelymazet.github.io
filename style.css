@@ -7,7 +7,7 @@ body {
 .wrapper {
   background-color: #d74d61;
   color: #eef0f1;
-  max-width: 1280px;
+  max-width: 1920px;
   display: flex;
   flex-direction: column;
 }
