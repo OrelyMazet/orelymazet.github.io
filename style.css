@@ -7,7 +7,7 @@ body {
 .wrapper {
   background-color: #d74d61;
   color: #eef0f1;
-  max-width: 1920px;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
 }
@@ -129,11 +129,11 @@ nav a:hover span {
   border-radius: 2%;
   border-style: dotted;
 }
-.wrappermiddle .midleft .wrappermiddleleft .realisation a {
+.wrappermiddle .midleft .wrappermiddleleft .realisation p {
   color: #eef0f1;
   font-size: 1.8vw;
 }
-.wrappermiddle .midleft .wrappermiddleleft .realisation .lien a:hover {
+.wrappermiddle .midleft .wrappermiddleleft .realisation .lien p:hover {
   color: #d74d61;
 }
 .wrappermiddle .midleft .wrappermiddleright {
@@ -151,15 +151,15 @@ nav a:hover span {
   align-items: center;
   padding: 2%;
 }
-.wrappermiddle .midleft .wrappermiddleright .realisation a {
+.wrappermiddle .midleft .wrappermiddleright .realisation p {
   color: #eef0f1;
   font-size: 1.8vw;
 }
-.wrappermiddle .midleft .wrappermiddleright .realisation .lien a:hover {
+.wrappermiddle .midleft .wrappermiddleright .realisation .lien p:hover {
   color: #d74d61;
 }
 .wrappermiddle .midleft #batman {
-  width: auto;
+  width: 100%;
 }
 .wrappermiddle .midleft .brand-logo {
   width: 15%;
@@ -377,7 +377,7 @@ nav a:hover span {
 }
 .wrapperme .midleft form {
   background-color: #eef0f1;
-  border-radius: 15%;
+  border-radius: 5vw;
   color: #d74d61;
   justify-content: center;
   align-items: center;
@@ -461,7 +461,7 @@ nav a:hover span {
   background-color: #6dba49 !important;
   margin: 2%;
   width: 50%;
-  border-radius: 40%;
+  border-radius: 2vw;
   height: 8%;
 }
 

@@ -121,14 +121,14 @@ nav {
                 border-radius: 2%;
                 border-style: dotted;
 
-                a {
+                p {
                     color: $textColor;
                     font-size: $poliMini;
                 }
 
                 ;
 
-                .lien a:hover {
+                .lien p:hover {
                     color: $backColor;
                 }
             }
@@ -146,21 +146,21 @@ nav {
                 border-style: dotted;
                 @include flexCenter();
 
-                a {
+                p {
                     color: $textColor;
                     font-size: $poliMini;
                 }
 
                 ;
 
-                .lien a:hover {
+                .lien p:hover {
                     color: $backColor;
                 }
             }
         }
 
         #batman {
-            width: auto;
+            width: 100%;
         }
 
         .brand-logo {
@@ -323,7 +323,7 @@ nav {
 
         form {
             background-color: $backColorbge;
-            border-radius: 15%;
+            border-radius: 5vw;
             color: $backColor;
             @include flexCenter();
             border-style: dotted;
@@ -399,7 +399,7 @@ nav {
         background-color: $backColorgreen !important;
         margin: 2%;
         width: $widthbis;
-        border-radius: 40%;
+        border-radius: 2vw;
         height: 8%;
     }
 
